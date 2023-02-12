@@ -29,4 +29,6 @@ int main()
     auto orzelowa_funkcja(int kruczek, float pluczek)->decltype(kruczek);
     // funkcja w inny sposób napisania i bardziej służy
     // do szablonów funkcji (ogółem to potem)
+
+    // i tak se moge zmieniać XD
 }
