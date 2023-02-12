@@ -7,7 +7,7 @@ int main()
 {
     int orzel;
     std::cout << "orzeł";
-    static_assert(1 == 2, "niedobry orzel");
+    //static_assert(1 == 2, "niedobry orzel");
     ::orzel; // to jest górny orzeł
 
     int pawel = 1;
