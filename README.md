@@ -1,4 +1,4 @@
 # Nauka
 Moja nauka
 
-To ogółem komendy których się uczę XD
+skończyłem na stronie 151
