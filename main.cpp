@@ -32,6 +32,17 @@ int main()
 
     // i tak se moge zmieniać
 
-    // alignas do wyrównywania adresów
+    // alignas do wyrównywania adresów i też jest alignof
+
+    // OPERATORY RZUTOWANIA
+    // static_cast<>() zwykle rzutowanie
+    // const_cast wysylanie wskaznika od zmiennej const
+
+
+
+
     // skończyłem na stronie 137
+
+
+
 }
