@@ -33,4 +33,5 @@ int main()
     // i tak se moge zmieniać
 
     // alignas do wyrównywania adresów
+    // skończyłem na stronie 119
 }
