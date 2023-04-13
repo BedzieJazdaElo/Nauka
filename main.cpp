@@ -32,6 +32,19 @@ int main()
 
     // i tak se moge zmieniać
 
-    // alignas do wyrównywania adresów
+    // alignas do wyrównywania adresów i też jest alignof
+
+    // OPERATORY RZUTOWANIA
+    // static_cast<>() zwykle rzutowanie
+    // const_cast wysylanie wskaznika od zmiennej const
+    // dynamic_cast w trakcie dzialania programu sprawdza
+    // reinterpret_cast do wskaźników
+    
+
+
+
     // skończyłem na stronie 137
+
+
+
 }
