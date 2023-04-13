@@ -43,7 +43,7 @@ int main()
 
 
 
-    // skończyłem na stronie 137
+    // skończyłem na stronie 151
 
 
 
