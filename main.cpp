@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 int orzel;
 
@@ -40,6 +41,8 @@ int main()
     // dynamic_cast w trakcie dzialania programu sprawdza
     // reinterpret_cast do wskaźników
     
+    std::string astring="orzel";
+    std::cout<<astring<<'\n';
     
 
 
