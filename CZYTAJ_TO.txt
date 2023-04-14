@@ -1,0 +1,55 @@
+
+                                                                        Ten plik został edytowany 24 września 2017
+Są to kody źródłowe przykładów z książki
+Jerzy Grębosz, "Opus Magnum C++11"
+
+Zamieszczone w zestawie programy są wybrane według następującego klucza:
+Są to programy "całościowe", a nie jedynie fragmenty programów.
+Jeśli więc w książce dany program rozpoczynają dyrektywy
+  #include ...
+to taki program został ujęty w tym zestawieniu. (Jest jeden lub dwa wyjątki od tej reguły,
+tzn. zadarzyło się, że dany fragment kodu zostału uzupełniony o funkcję main, dyrektywy itp.)
+
+======== Nazewnictwo plików z programami =========
+
+Przykłady są w plikach, których nazwa określa, z którego rozdziału i paragrafu pochodzi dany przykład.
+Zatem zapis:
+    paragraf_RR_PP_MM.cpp
+oznacza, że dany program pochodzi z rozdziału numer RR i paragrafu numer PP.MM
+Numer rozdziału, np. 22, 10, 06 jest tu zawsze podany dwucyfrowo,
+podobnie jak numery podrozdziału.
+
+Na przykład program przykładowy  z paragrafu  4.1.3 jest zamieszczony pod nazwą:
+    paragraf_04_01_03.cpp
+
+Bardzo rzadko się zdarza, że w danym paragrafie są dwa, a nawet trzy programy
+przykładowe - wówczas do nazwy odpowiednich plików dołączona jest litera a, b, c.
+
+Jeśli program w książce składał się z kilku plików, to dla uproszczenia
+w większości przypadków są one tak umieszczone w jednym
+pliku, aby ta całość dała się od razu poprawnie skompilować, bez dodatkowych
+zabiegów rozdzielania na osobne pliki.
+
+W dwóch przypadkach, gdzie chodzi o to, aby czytelnik sam
+skomplował i zlinkował program składający się z kilku plików - są
+one spakowane do jednego pliku z rozszerzeniem  *.zip, lub *.tar
+
+Na przykład
+	paragraf_06_17.zip
+
+--------------------
+
+Pierwsze programy bardzo łatwe, więc odradzam używania zamieszczonych tutaj
+kodów źródłowych. Lepiej samemu wpisać tekst takiego programu (z klawiatury).
+Jeśli przy wpisywaniu popełnisz jakieś błędy - to kompilator je najprawdopodobnie znajdzie i będziesz
+musiał umieć na nie zareagować. Potraktuj to jako naukę.
+Jeśli zaś uda się je skompilować, ale działanie programu będzie inne,
+to możliwe, że popełniłeś nie błąd składni, ale taki, który zmienił działanie programu.
+To trudniej jest znaleźć, bo kompilator nic nie pomoże. Wtedy możesz skorzystać
+z zamieszczonego tutaj kodu źródłowego.
+No, chyba że opanowałeś już posługiwanie sie debugerem (programem diagnostycznym),
+wtedy sam znajdziesz dlaczego program działa nie tak, jak oczekiwałeś.
+
+Dobrej zabawy !
+
+Jurek Grębosz
