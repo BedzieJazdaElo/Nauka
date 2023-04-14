@@ -1,4 +1,4 @@
 # Nauka
 Moja nauka
 
-skończyłem na stronie 151
+skończyłem na stronie 176
