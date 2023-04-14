@@ -40,10 +40,11 @@ int main()
     // dynamic_cast w trakcie dzialania programu sprawdza
     // reinterpret_cast do wskaźników
     
+    
 
 
 
-    // skończyłem na stronie 151
+
 
 
 
