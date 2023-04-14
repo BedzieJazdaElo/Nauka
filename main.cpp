@@ -8,7 +8,7 @@ int main()
 {
     int orzel;
     std::cout << "orzeł";
-    static_assert(1 == 2, "niedobry orzel");
+    // static_assert(1 == 2, "niedobry orzel");
     // to jest górny orzeł
 
     int pawel = 1;
@@ -43,6 +43,14 @@ int main()
     
     std::string astring="orzel";
     std::cout<<astring<<'\n';
+
+    // zakresowe for
+    std::vector<int>wketro{1,2,3,4,5};
+    for(auto elem:wketro)
+    {
+        std::cout<<elem<<" orzel"<<'\n';
+    }
+
     
 
 
