@@ -1,4 +1,3 @@
 # Nauka
-Moja nauka
 
-skończyłem na stronie 188
+- skończyłem na stronie 188

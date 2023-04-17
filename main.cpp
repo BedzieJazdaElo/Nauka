@@ -4,6 +4,11 @@
 
 int orzel;
 
+
+namespace{
+    // anonimowa przestrzeń nazw
+}
+
 int main()
 {
     int orzel;
@@ -50,6 +55,10 @@ int main()
     {
         std::cout<<elem<<" orzel"<<'\n';
     }
+
+
+    static int zmienna =3;//że się ona zachowuje i nie jest na stosie
+
 
     
 
