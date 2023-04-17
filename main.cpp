@@ -58,14 +58,6 @@ int main()
 
 
     static int zmienna =3;//że się ona zachowuje i nie jest na stosie
-
-
     
-
-
-
-
-
-
 
 }
