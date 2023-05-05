@@ -20,6 +20,14 @@ void strcpy(char *a, char *b)
     while (*a++ = *b++);
 }
 
+void funkcjaVector(const std::vector<int> &wektor)//tutaj const pozwala na to żeby zmieniać wektor, tylko nie pozwala zmienić adresu wektora
+{
+    for(const auto elem:wektor) //tutaj const nie pozwala na to żeby zmieniać wektor
+    {
+        std::cout<<elem<<'\n';
+    }
+}
+
 int main()
 {
     int orzel;
@@ -112,6 +120,10 @@ int main()
         a1++;
     } while (a1!=0);
     
+
+    std::vector<int> wektor1{1,2,3,4,5};
+    funkcjaVector(wektor1);
+
 
     
 
