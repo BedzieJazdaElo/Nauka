@@ -94,5 +94,15 @@ int main()
     strcpy(b,a);
     std::cout<<b<<'\n';
 
+    int tablica1[5][2]={1,2,3,4,5,6,7,8,9,10};
+    std::cout<<tablica1[1][1]<<'\n';
+    std::cout<<*(*tablica1+3)<<'\n';
+    std::cout<<&tablica1[2][1]<<'\n';//to jest adres
+    std::cout<<tablica1[2]+1<<'\n';//to jest adres
+    std::cout<<*(tablica1+2)+1<<'\n';//to jest adres
+    std::cout<<*(*(tablica1+2)+1)<<'\n';//to jest wartość
+
+    
+
 
 }
