@@ -101,6 +101,17 @@ int main()
     std::cout<<tablica1[2]+1<<'\n';//to jest adres
     std::cout<<*(tablica1+2)+1<<'\n';//to jest adres
     std::cout<<*(*(tablica1+2)+1)<<'\n';//to jest wartość
+    
+
+    std::cout<<"-------------------"<<'\n';
+    char a1=0b00000000;
+    do
+    {
+        
+        std::cout<<a1<<'\n';
+        a1++;
+    } while (a1!=0);
+    
 
     
 
