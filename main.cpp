@@ -15,6 +15,11 @@ void funkcja123(int a[5])
         std::cout<<*(a+1)<<'\n';
     }
 
+void strcpy(char *a, char *b)
+{
+    while (*a++ = *b++);
+}
+
 int main()
 {
     int orzel;
@@ -82,6 +87,12 @@ int main()
 
     int tablica[5]={1,2,3,4,5};
     funkcja123(tablica);
+
+    // kopiowanie stringu za pomocą funkcji strcpy
+    char a[]="orzel";
+    char b[6];
+    strcpy(b,a);
+    std::cout<<b<<'\n';
 
 
 }
