@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <iomanip>
 
 int orzel;
 
@@ -25,6 +26,20 @@ void funkcjaVector(const std::vector<int> &wektor)//tutaj const pozwala na to ż
     for(const auto elem:wektor) //tutaj const nie pozwala na to żeby zmieniać wektor
     {
         std::cout<<elem<<'\n';
+    }
+}
+
+void wypiszWektor(const std::vector<std::vector<int>> &wektor)
+{
+    std::cout<<"-------------------"<<'\n';
+    for(const auto& elem:wektor)
+    {
+        int i=0;
+        for(i=0;i<elem.size()-1;i++)
+        {
+            std::cout<< std::setw(3) <<elem[i];
+        }
+        std::cout<< std::setw(3)<<elem[i]<<'\n';
     }
 }
 
@@ -124,8 +139,13 @@ int main()
     std::vector<int> wektor1{1,2,3,4,5};
     funkcjaVector(wektor1);
 
+    std::vector<std::vector<int>> wektor2{{1,2,3},{4,5,6},{7,8,9}};
+    wypiszWektor(wektor2);
 
-    
+    // napisz wektor wektorów od 1 do 15
+    std::vector<std::vector<int>> wektor3{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15}};
+
+    wypiszWektor(wektor3);
 
 
 }
