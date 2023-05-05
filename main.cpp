@@ -61,6 +61,16 @@ int main()
 
     auto zmienna1=zmienna;
     
+    #define wartosc 3//to jest makrodefinicja
+    std::cout<<wartosc<<'\n';
+    #undef wartosc//to usuwa definicje
+
+    #define suma(a,b) (a+b)//to jest makrodefinicja funkcji
+    std::cout<<suma(3,4)<<'\n';
+
+    #define zmienna(a,b) zmienna_##a##_##b//to jest konkatenacja
+    int zmienna(jasna,dupa)=3;//to jest zmienna_jasna_dupa
+
     
 
 
