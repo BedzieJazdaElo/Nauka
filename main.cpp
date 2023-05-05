@@ -9,6 +9,12 @@ namespace{
     // anonimowa przestrzeń nazw
 }
 
+void funkcja123(int a[5])
+    {
+        std::cout<<a[0]<<'\n';
+        std::cout<<*(a+1)<<'\n';
+    }
+
 int main()
 {
     int orzel;
@@ -72,6 +78,10 @@ int main()
     int zmienna(jasna,dupa)=3;//to jest zmienna_jasna_dupa
 
     
+    
+
+    int tablica[5]={1,2,3,4,5};
+    funkcja123(tablica);
 
 
 }
