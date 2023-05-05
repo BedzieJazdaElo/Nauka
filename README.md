@@ -1,3 +1,3 @@
 # Nauka
 
-- skończyłem na stronie 313
+- skończyłem na stronie 321
