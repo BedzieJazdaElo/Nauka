@@ -14,4 +14,8 @@ int main()
     {
         delete[] p[i];
     }
+
+    //inny sposob
+    int (*tablica)[10] = new int[8][10]{};//tablica wskaznikow na tablice
+    std::cout<<tablica[1][5]<<std::endl;
 }
