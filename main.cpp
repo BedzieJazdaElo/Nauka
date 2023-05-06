@@ -23,10 +23,12 @@ void strcpy(char *a, char *b)
 
 void funkcjaVector(const std::vector<int> &wektor)//tutaj const pozwala na to żeby zmieniać wektor, tylko nie pozwala zmienić adresu wektora
 {
+    std::cout<<"-------------------"<<'\n';
     for(const auto elem:wektor) //tutaj const nie pozwala na to żeby zmieniać wektor
     {
         std::cout<<elem<<'\n';
     }
+    std::cout<<"-------------------"<<'\n';
 }
 
 void wypiszWektor(const std::vector<std::vector<int>> &wektor)
@@ -41,6 +43,20 @@ void wypiszWektor(const std::vector<std::vector<int>> &wektor)
         }
         std::cout<< std::setw(3)<<elem[i]<<'\n';
     }
+    std::cout<<"-------------------"<<'\n';
+}
+
+void wypiszTablice(int tablica[][3]){
+    std::cout<<"-------------------"<<'\n';
+    for(int i=0;i<3;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            std::cout<< std::setw(3) <<tablica[i][j];
+        }
+        std::cout<<'\n';
+    }
+    std::cout<<"-------------------"<<'\n';
 }
 
 int main()
@@ -146,6 +162,24 @@ int main()
     std::vector<std::vector<int>> wektor3{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15}};
 
     wypiszWektor(wektor3);
-    
 
+    // Zmiana rozmiaru wektora
+    std::vector<int> wektor4{1,2,3,4,5};
+    wektor4.resize(10);
+    funkcjaVector(wektor4);
+
+    wektor4.push_back(6);
+    funkcjaVector(wektor4);
+
+    wektor4.pop_back();
+    funkcjaVector(wektor4);
+    
+    int tablica3[3][3]{{1,2,3},{4,5,6},{7,8,9}};
+    wypiszTablice(tablica3);
+
+    // warunek za pomocą ?:
+    int a2=3;
+    int b2=4;
+    std::cout<<(a2>b2 ? "a2 jest większe od b2" : "a2 jest mniejsze od b2")<<'\n';
+    
 }
