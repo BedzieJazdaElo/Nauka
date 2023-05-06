@@ -59,6 +59,17 @@ void wypiszTablice(int tablica[][3]){
     std::cout<<"-------------------"<<'\n';
 }
 
+
+void funkcjaWypisująca(const int tablica[], int rozmiar)
+{
+    for(int i=0;i<rozmiar;i++)
+    {
+        std::cout<<tablica[i]<<'\n';
+        //tablica[i]=0; nie zadziała ponieważ const
+    }
+}
+
+
 int main()
 {
     int orzel;
@@ -181,5 +192,17 @@ int main()
     int a2=3;
     int b2=4;
     std::cout<<(a2>b2 ? "a2 jest większe od b2" : "a2 jest mniejsze od b2")<<'\n';
+
+    int tablica4[3][3]{{1,2,3},{4,5,6},{7,8,9}};
+    std::cout<<**(tablica4+1)<<'\n';
     
+    int tablica5[3][4][5]{{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20}},{{21,22,23,24,25},{26,27,28,29,30},{31,32,33,34,35},{36,37,38,39,40}},{{41,42,43,44,45},{46,47,48,49,50},{51,52,53,54,55},{56,57,58,59,60}}};
+    std::cout<<tablica5[1][2][3]<<'\n';
+    std::cout<<*(**tablica5+33)<<'\n';
+
+    // używanie new i delete
+    int *wskaznik2=new int[5]{1,2,3,4,5};//tworzenie tablicy
+    std::cout<<wskaznik2[2]<<'\n';
+    delete[] wskaznik2;//usuwanie tablicy
+
 }
