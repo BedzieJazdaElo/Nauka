@@ -29,6 +29,10 @@ int main()
 
     delete[] wska;
 
+    const int* const w=new int[10]{};//tablica
+    //w[0]=5; //nie mozna zmienic wartosci
+    //w++; //nie mozna zmienic wskaznika
 
+    
     
 }
