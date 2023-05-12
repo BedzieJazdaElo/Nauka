@@ -18,5 +18,17 @@ int main()
     //inny sposob
     int (*tablica)[10] = new int[8][10]{};//tablica wskaznikow na tablice
     std::cout<<tablica[1][5]<<std::endl;
+
+
+    int* wsk=new int[10]{};//tablica
+    
+
+    //ogółem pamietaj, że gwiazdka musi być po lewej stronie
+    int (*wska)[10][32]{new int[8][10][32]{}};
+    //   ^^^^    pamietaj
+
+    delete[] wska;
+
+
     
 }
