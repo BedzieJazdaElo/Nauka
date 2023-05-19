@@ -1,6 +1,17 @@
 #include <iostream>
 
-int main()
+int dodawanie(const int &a, const int &b)
+{
+    return a+b;
+}
+
+int odejmowanie(const int &a, const int &b)
+{
+    return a-b;
+}
+
+
+int main(int argc, char** argv)
 {
     std::cout << "Hello, World!" << std::endl;
     int** p = new int*[10];//p to tablica wskaznikow na tablice
@@ -36,6 +47,6 @@ int main()
 
     // char *wsk1231231="Ala ma kota"; ogólnie nie wolno tak robić
     const char* wsk1231231="Ala ma kota";//tak mozna
-    
-    
+    std::cout<<dodawanie(1,2)<<std::endl;
+
 }
