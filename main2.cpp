@@ -32,7 +32,10 @@ int main()
     const int* const w=new int[10]{};//tablica
     //w[0]=5; //nie mozna zmienic wartosci
     //w++; //nie mozna zmienic wskaznika
+    delete[] w;
 
+    // char *wsk1231231="Ala ma kota"; ogólnie nie wolno tak robić
+    const char* wsk1231231="Ala ma kota";//tak mozna
     
     
 }
